@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solar Panel Website</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lemon&family=Londrina+Outline&family=Marko+One&family=Merienda:wght@300..900&family=Nova+Mono&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Qwitcher+Grypen:wght@400;700&family=Rampart+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <a class="navbar-brand" href="#"> <img id="title_logo" src="LOGO495.png" alt="Logo">  Jind Solar City </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#home">Home <i class="fa-solid fa-house"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#products">Products <i class="fa-solid fa-box"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about-us">About Us <i class="fa-solid fa-user"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact-us">Contact Us <i class="fa-solid fa-phone"></i></a>
+                </li>
+            </ul>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <button class="btn btn-primary" data-toggle="modal" data-target="#orderModal">Place Order <i class="fa-solid fa-cart-plus"></i></button>
+                </li>
+            </ul>
+        </div>
+
+    </nav>
+
+    
+    <div class="hero-section" id="home">
+        <div class="container">
+            <h1 class="title">Welcome to Jind Solar City</h1>
+            <p class="paragraph">At Jind Solar City, we're committed to revolutionizing the way you think about energy. Say goodbye to skyrocketing utility bills and hello to a brighter, greener future with our state-of-the-art solar energy solutions.</p>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- Product Section -->
+        <div class="products-section" id="products">
+            <h2><B>Our Products</B></h2>
+            <div class="row">
+
+                <div class="product-card">
+                    <img src="Solar Panel.jpg" alt="Solar Panel 1">
+                    <h3>Solar Panels</h3>
+                    <ul>
+                        <li><b>Panel Type:</b> Monocrystalline / Polycrystalline / Thin-Film</li>
+                        <li><b>Power Output:</b> 100W / 200W / 300W / 400W+</li>
+                        <li><b>Voltage:</b> 12V / 24V / 48V</li>
+                        <li><b>Efficiency:</b> 15% - 22%</li>
+                        <li><b>Lifespan:</b> 25 - 30 years</li>
+                    </ul>
+                </div>
+    
+                <div class="product-card">
+                    <img src="Solar Battery.jpg" alt="Solar Panel 2">
+                    <h3>Solar Battery</h3>
+                    <ul>
+                        <li><b>Battery Type:</b> Lithium-ion / Lead-Acid / LiFePO4</li>
+                        <li><b>Capacity:</b> 100Ah / 200Ah / 300Ah</li>
+                        <li><b>Voltage:</b> 12V / 24V / 48V</li>
+                        <li><b>Efficiency:</b> 90-98%</li>
+                        <li><b>Charge Time:</b> 4-6 hours (Lithium) / 8-12 hours (Lead-Acid)</li>
+                    </ul>
+                </div>
+    
+                <div class="product-card">
+                    <img src="Solar on grid Inverter.jpg" alt="Solar Panel 3">
+                    <h3>Solar on grid inverter</h3>
+                    <ul>
+                        <li><b>Inverter Type:</b> On-Grid (Grid-Tied) Inverter</li>
+                        <li><b>Power Capacity:</b> 1kW / 3kW / 5kW / 10kW / 20kW+</li>
+                        <li><b>Input Voltage (DC):</b> 100V - 1000V</li>
+                        <li><b>Output Voltage (AC):</b> 220V / 230V / 400V</li>
+                        <li><b>Efficiency:</b> 95% - 99%</li>
+                    </ul>
+                </div>
+                <div class="product-card">
+                    <img src="Solar on grid plants domestic and commercial.jpg" alt="Solar Panel 4">
+                    <h3>Solar on grid plants domestic and commercial</h3>
+                        <ul>
+                            <li><b>System Type:</b>	On-Grid (Grid-Tied)</li>
+                            <li><b>Capacity Options	:</b> 5kW - 50KW+ (varies by domestic and commercial Uses)</li>
+                            <li><b>Panel Type	:</b>	Monocrystalline / Polycrystalline</li>
+                            <li><b>Lifespan:</b>	25 - 30 years</li>
+                        </ul>
+                </div>
+                <div class="product-card">
+                    <img src="Solar Mounting Structure.jpg" alt="Solar Panel 5">
+                    <h3>Solar Mounting Structure</h3>
+                        <ul>
+                            <li><b>Material	:</b>	Galvanized Iron (GI) / Aluminum / Stainless Steel</li>
+                            <li><b>Mounting Type:</b> Rooftop / Ground / Pole / Carport / Floating</li>
+                            <li><b>Wind Load Capacity:</b>	Up to 150 km/h</li>
+                            <li><b>Lifespan:</b>	20 - 30 years</li>
+                        </ul>
+                </div>
+            </div>
+        </div>
+
+
+
+    <div class="about-us-section" id="about-us">
+        <div class="container">
+            <h2><b>About Us</b></h2>
+            <p>At Jind Solar City, we are committed to providing high-quality, sustainable, and cost-effective solar solutions for homes, businesses, and industries. With a vision to harness the power of the sun, we offer a wide range of solar products, including Solar Panels, Solar Batteries, Solar On-Grid & Off-Grid Inverters, Solar Mounting Structures, and Complete Solar Power Plants for both domestic and commercial applications.
+
+                Our mission is to make renewable energy accessible to everyone by delivering top-tier products that ensure efficiency, durability, and long-term savings. Whether you need a solar system for your home, office, or large-scale commercial setup, we provide tailored solutions that maximize energy generation and reduce electricity costs.
+                
+                With a team of skilled professionals and a dedication to customer satisfaction, we guarantee seamless installation, reliable performance, and exceptional after-sales support. Join us in building a greener future with clean, renewable energy!
+                
+                <p>Why Choose Us?</p>
+                    <p>✔ High-Quality & Certified Solar Products</p>
+                    <p>✔ Affordable & Customized Solutions</p>
+                    <p>✔ Expert Installation & Technical Support</p>
+                    <p>✔ Long-Term Performance & Warranty Assurance</p>
+                    <p>✔ Commitment to a Sustainable Future</p></p>
+                
+                
+                Switch to Solar , Power Your Future with Jind Solar City!</p>
+        </div>
+    </div>
+
+    <!-- <div class="contact-section" id="contact-us">
+        <div class="container">
+            <h2><b>Get in Touch</b></h2>
+            <p>Phone: 8708362677 , 8950707400 , 9896577678</p>
+            <p>Email: <a href="mailto:Jindsolarcity@gmail.com">Jindsolarcity@gmail.com</a></p>
+            <p><b>Address:</b> Kisan auto market , Hansi Road, Jind , Haryana , India.</p>
+        </div>
+    </div> -->
+
+
+    <footer>
+        <div class="footer-container" id="contact-us">
+            <div class="footer-about">
+                <img src="LOGO49.png" alt="Jind Solar City" class="footer-logo">
+                <p>
+                    At Jind Solar City, we're committed to revolutionizing the way you think about energy. Say goodbye to skyrocketing utility bills and hello to a brighter, greener future with our state-of-the-art solar energy solutions.
+                </p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#about-us">About us</a></li>
+                    <li><a href="#contact-us">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h3>Contact</h3>
+                <p><i class="fas fa-phone"></i> 123-456-7890 </p>
+                <p><i class="fas fa-envelope"></i> 1234@gmail.com</p>
+                <p><i class="fas fa-map-marker-alt"></i> 1234 Flat number, Near Powerpoint School</p>
+            </div>
+           
+        </div>
+    </footer>
+
+
+
+
+    <div class="copyright-section">
+        <p>&copy; 2025 Jind Solar City. All rights reserved.</p>
+    </div>
+
+
+
+    <div class="modal fade" id="orderModal" tabindex="-1" role="dialog" aria-labelledby="orderModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="orderModalLabel">Place Order</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Please fill out the form to place your order.</p>
+                    <a href="https://forms.gle/rxr7vacooponbxaP8">Click here to access the order form</a>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="index.js"></script>
+ 
+</body>
+</html>
